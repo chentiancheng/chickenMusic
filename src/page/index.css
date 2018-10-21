@@ -1,0 +1,131 @@
+.songsHome{
+    width: 100px;
+    height: 100%;
+    display: flex;
+}
+.navbar{
+    position: flex;
+    top: 0;
+    width: 100%;
+}
+.ant-carousel .slick-slide {
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+    background: #364d79;
+    overflow: hidden;
+  }
+  .ant-carousel .slick-slide{
+      line-height: 0%;
+  }
+  .Musicsilder img{
+        width: 100%;
+        height: auto;
+  }
+  .songsHome{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+  }
+  .songSection{
+      flex: 1;
+      overflow: auto;
+      padding-top:80px; 
+  }
+  .songsList h3{
+    text-align: center;
+    color: #c09c2d;
+    font-weight: bold;
+    padding-top: 23px;
+  }
+  .songsList dl{
+    display: flex;
+    flex-direction: row;
+    margin-top: 21px;
+    margin-left: 17px;
+  }
+  .songsList dl dt{
+      color: #afafaf;
+      font-weight: bold;
+      margin-right: 16px;
+    
+  }
+  .songsList dl dt img{
+    width: 56px;
+    height: 56px;
+  
+}
+  .songsList dl dd h4{
+      color: #cfcfcf;
+      font-weight: bold;
+  }
+  .songsList dl dd {
+    color: #494949;
+  }
+  .songerList{
+      padding-top: 80px;
+  }
+  .songerListTitle{
+      margin-top:10px;
+      width: 100%;
+      height: 27px;
+      background: #333333;
+      color: #676767;
+      padding-left: 22px;
+  }
+  .songerList dl{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 25px;
+    color: #717171;
+    padding-bottom: 16px;
+  }
+  .songerList dl dt img{
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-right: 18px;
+  }
+  .singerstate{
+      position: relative;
+  }
+  .singerTitle{
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding-left: 17px;
+      padding-top: 9px;
+      position: absolute;
+      top: 0;
+  }
+  .singerTitle h3{
+      flex: 1;
+      text-align: center;
+      text-indent: -2em;
+      color: #ffff;
+  }
+  .singerImg{
+      width: 100%;
+      height: 220px;
+      overflow: hidden;
+  }
+  .singerImg img{
+    width: 100%;
+    height: 100%;
+  }
+  .singerstate dl{
+      padding-left: 27px;
+      padding-top:20px;
+  }
+  .singerstate dl dt{
+    color: #ffff;
+    font-weight: bold;
+}
+.singerstate dl dd{
+    color: #525252;
+}
